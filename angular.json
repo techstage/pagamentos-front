@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pagamentos-front:build"
+            "browserTarget": "pagamentos-front:build",
+            "port": 9035
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pagamentos-front"
+    }
+  },
+  "defaultProject": "pagamentos-front",
+  "cli": {
+    "analytics": false
+  }
 }
