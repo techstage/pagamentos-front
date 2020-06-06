@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class PagamentoService {
 
-  pagamentosURL = 'http://localhost:9030/pagamentos';
-
+  //pagamentosURL = 'http://localhost:9030/pagamentos';
+  pagamentosURL = 'ec2-100-24-119-11.compute-1.amazonaws.com/pagamentos';
   constructor(private http: HttpClient){}
 
   listar(){
